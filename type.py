@@ -55,7 +55,6 @@ accuracy = int(correct_chars / total_chars) * 100)
 #print results
 print("\nResults:")
 print(f"WPM: {wpm}")
-
-
+print(f"Accuracy: {accuracy}% (excluding misspelled word)")
 
 
