@@ -27,4 +27,19 @@ start_time = time.time()
 #end time 
 end-time = time.time()
 
-#calculate elapased time elapsed_time = end_time -start_time
+#calculate elapased time 
+elapsed_time = end_time -start_time
+
+#calculate typing speed (wpm)
+words = len(random.split())
+wpm = int(words / elapsed_time) * 60
+
+# 
+           
+
+
+
+
+
+
+
