@@ -34,8 +34,15 @@ elapsed_time = end_time -start_time
 words = len(random.split())
 wpm = int(words / elapsed_time) * 60
 
-# 
-           
+# Spell checking
+checker=  SpellChecker("en_US") #Change "en_US" for different dictionaries
+misspelled = []
+for word in typed_text.split():
+  if not checker.check(word):
+    misspeled.append(word)
+
+#retype for checking
+
 
 
 
