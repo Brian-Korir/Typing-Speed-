@@ -44,8 +44,9 @@ for word in typed_text.split():
 #retype for checking
 print("\nNow, retype the semtence to check for errors:")
 retped_text = input("> ")
-
-
+correct_chars = 0
+total_chars = len(random_sentence.replace(" ", ""))
+for i in range (len(random_sentence)):
 
 
 
