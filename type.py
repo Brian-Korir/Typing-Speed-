@@ -52,6 +52,9 @@ for i in range (len(random_sentence)):
 
 
 accuracy = int(correct_chars / total_chars) * 100)
+#print results
+print("\nResults:")
+print(f"WPM: {wpm}")
 
 
 
