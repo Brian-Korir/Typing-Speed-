@@ -42,8 +42,8 @@ for word in typed_text.split():
     misspeled.append(word)
 
 #retype for checking
-
-
+print("\nNow, retype the semtence to check for errors:")
+retped_text = input("> ")
 
 
 
