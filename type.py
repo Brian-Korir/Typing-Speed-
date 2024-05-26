@@ -57,4 +57,9 @@ print("\nResults:")
 print(f"WPM: {wpm}")
 print(f"Accuracy: {accuracy}% (excluding misspelled word)")
 
-
+#print misspelled word (if any)
+if misspelled:
+  print("\n Misspeled words in the first attempt:")
+     for word in  misspelled:
+       print(word)
+typing_test()
