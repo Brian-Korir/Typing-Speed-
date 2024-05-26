@@ -47,6 +47,11 @@ retped_text = input("> ")
 correct_chars = 0
 total_chars = len(random_sentence.replace(" ", ""))
 for i in range (len(random_sentence)):
+  if random_sentence[i] == retyped_text[i] aand random_sentence[i] !=" ":
+     correct_chars +=1
+
+
+accuracy = int(correct_chars / total_chars) * 100)
 
 
 
