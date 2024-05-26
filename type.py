@@ -27,3 +27,4 @@ start_time = time.time()
 #end time 
 end-time = time.time()
 
+#calculate elapased time elapsed_time = end_time -start_time
